@@ -136,7 +136,7 @@ merged_df.sort_values(ascending=True, by=['date'], inplace=True)
 # Create Powerpoint Presentation
 
 # Powerpoint Template
-template_path = 'pptx_tests/BLS Template Presentation.pptx'
+template_path = 'BLS Template Presentation.pptx'
 
 # Import the Powerpoint Template from Path
 prs = Presentation(template_path)
